@@ -56,3 +56,27 @@ The original dataset includes:
 ---
 
 # Project Workflow
+
+The project follows an end-to-end analytics pipeline:
+
+1. **Data Collection**
+   - Obtain the Online Retail II dataset from the UCI Machine Learning Repository.
+
+2. **Data Preprocessing (R)**
+   - Merge yearly transaction data.
+   - Remove invalid transactions.
+   - Handle missing customer information.
+   - Generate a cleaned analytical dataset.
+
+3. **Data Transformation (MySQL)**
+   - Create aggregated tables for:
+     - Monthly sales performance
+     - Country-level analysis
+     - Product performance
+     - Customer analytics
+
+4. **Dashboard Development (Power BI)**
+   - Build interactive dashboards to explore sales, customers, and products.
+
+5. **Business Analysis**
+   - Translate analytical findings into business insights and recommendations.
