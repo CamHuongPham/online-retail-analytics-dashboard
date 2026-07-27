@@ -8,18 +8,31 @@ Download the **Online Retail II** dataset from the UCI Machine Learning Reposito
 
 https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
-Place the downloaded file in this folder as:
+After downloading and extracting the archive, you will obtain a folder similar to:
 
+```text
+online+retail+ii/
+└── online_retail_II.xlsx
 ```
+
+Copy the extracted file:
+
+```text
+online_retail_II.xlsx
+```
+
+to the project's `data/` folder:
+
+```text
 data/
-└── online_retail_II.csv
+└── online_retail_II.xlsx
 ```
 
 ## Preprocessed Dataset
 
 Run the preprocessing script:
 
-```
+```text
 r/01_data_preprocessing.R
 ```
 
@@ -31,7 +44,7 @@ The script will:
 - Randomly sample 100,000 transactions
 - Save the processed dataset as:
 
-```
+```text
 data/
 └── online_retail_100k.csv
 ```
