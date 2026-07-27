@@ -14,7 +14,7 @@ data/online_retail_100k.csv
 
 2. Import `online_retail_100k.csv` into MySQL.
 
-3. Create (or import into) a table named:
+3. Import the CSV into a table named:
 
 ```text
 online_retail
