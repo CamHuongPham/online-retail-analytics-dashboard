@@ -1,32 +1,3 @@
-online-retail-analytics-dashboard/
-
-│
-├── README.md
-│
-├── data/
-│   └── README.md
-
-── analysis/ │ └── business_insights.md 
-                        └── data_dictionary.md 
-├── r/
-│   ├── 01_data_cleaning.R
-│   └── 02_customer_analysis.R
-│
-├── sql/
-│   ├── 01_create_country_metrics.sql
-│   ├── 02_create_monthly_sales.sql
-│   ├── 03_create_customer_metrics.sql
-│   └── 04_create_product_metrics.sql
-│
-├── powerbi/
-│   └── Online_Retail_Analytics_Dashboard.pbix
-│
-└── screenshots/
-    ├── sales_overview.png
-    ├── customer_analytics.png
-    └── product_analytics.png
-
-
 # Sales Overview
 
 ## Key Findings
@@ -34,11 +5,13 @@ online-retail-analytics-dashboard/
 ### 1. November Is the Consistent Peak Sales Month
 
 Revenue follows a recurring seasonal pattern across both **2010** and **2011**. Sales increase sharply toward **November**, reaching the highest monthly revenue in each year before declining significantly in **December and January**. The strongest peak occurred in **November 2011 (approximately 140K)**, while **November 2010** also showed a substantial increase, highlighting consistent year-end purchasing behavior.
+
 ---
 
 ### 2. Sales Are Dominated by the Domestic Market
 
 The **United Kingdom** accounted for approximately **1.76M** in revenue, representing the largest share of total sales. Given that the dataset originates from a UK-based retailer, this distribution is expected. Among overseas markets, **Ireland, the Netherlands, Germany, and France** were the strongest contributors, although each generated considerably less revenue than the UK.
+
 ---
 
 ### 3. Order Distribution Mirrors Revenue Distribution
@@ -67,6 +40,8 @@ Although purchase frequency generally increases with revenue, the relationship i
 
 The customer distribution reveals at least two distinct high-value customer profiles. Some customers generate high revenue through **frequent purchases**, while others achieve similar or even higher revenue with **fewer but higher-value transactions**. This indicates that customer value is driven by different purchasing behaviors rather than purchase frequency alone.
 
+---
+
 # Product Analytics
 
 ## Key Findings
@@ -87,6 +62,7 @@ The highest-revenue product (**22423**, approximately **38K**) is different from
 
 Products **85099B** and **85123A** appear in both the **top revenue** and **top quantity sold** rankings, indicating strong performance across both metrics. Unlike products that excel in only one dimension, these products combine high sales volume with strong revenue contribution, indicating that they are the company's core products across both revenue generation and sales volume.
 
+---
 
 # Overall Business Implications
 
@@ -99,6 +75,3 @@ Products **85099B** and **85123A** appear in both the **top revenue** and **top 
 - **Identify high-value customers beyond simple revenue ranking.** Customers such as **14646** and **18102** generate the highest revenue, while **14911** demonstrates exceptional purchase frequency. These different customer profiles suggest that revenue contribution and engagement level should both be considered when designing loyalty strategies.
 
 - **Prioritize products that demonstrate strength across multiple performance dimensions.** Products such as **85099B** and **85123A** perform strongly in both revenue and quantity sold, making them more reliable candidates for inventory focus and promotional investment than products that perform well in only one metric.
-
-
-
