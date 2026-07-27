@@ -12,7 +12,7 @@ Place the downloaded file in this folder as:
 
 ```
 data/
-└── online_retail_II.xlsx
+└── online_retail_II.csv
 ```
 
 ## Preprocessed Dataset
